@@ -13,8 +13,6 @@ const getPromiseForFile = (file) => {
                     const height = this.height;
                     const width = this.width;
 
-                    this = null;
-
                     return {height, width}
                 })()
             );
